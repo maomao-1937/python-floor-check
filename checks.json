@@ -1,0 +1,14 @@
+[
+  {
+    "args": ["python_floor_check.py", "fixtures/pyproject.toml", "3.11", "3.12.4"],
+    "exit": 0
+  },
+  {
+    "args": ["python_floor_check.py", "fixtures/pyproject.toml", "3.11", "3.12.0", "3.13"],
+    "exit": 1
+  },
+  {
+    "args": ["python_floor_check.py", "fixtures/unsupported.toml", "3.11"],
+    "exit": 2
+  }
+]
